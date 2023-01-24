@@ -1,0 +1,74 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+.container{
+    margin-top:50px;
+    margin-left:65px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.navbar-container{
+   display:flex;
+}
+.grow-list{
+    display:flex;
+    flex-grow:1;
+
+    margin-left:0px;
+
+
+
+}
+.button-group{
+    
+    margin-right:120px
+}
+.list{
+    display:flex;
+
+    margin-right:8px;
+}
+span{
+    color: rgba(128, 1, 255, 0.988);
+}
+h1{
+ 
+      color: rgb(62, 20, 101);
+      font-size:75px
+
+}
+.list-item{
+    color:rgba(47, 46, 44, 0.538);
+
+list-style-type:none;
+
+margin-left:25px;
+ 
+    }
+    li:hover {
+        
+    color:rgb(0, 0, 0);
+    }
+
+.nav-button{
+    width:110px;
+    color:white;
+    background-color: rgba(110, 40, 215, 0.858);
+    padding:10px;
+    border-radius:10px ;
+    
+}
+.btn{
+    margin-top:40px;
+    height:48px;
+    width:160px;
+    
+}
+.banner-container{
+    display:flex;
+    margin-top: 50px;
+
+}
+.description{
+    font-size:24px;
+    font-weight:0;
+    color:rgba(47, 46, 44, 0.538);
+}
