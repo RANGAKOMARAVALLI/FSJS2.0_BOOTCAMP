@@ -1,0 +1,166 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+ padding:0;
+ margin:0;
+ box-sizing:border-box;
+
+}
+.navbar-container
+{
+    display:flex;
+    flex-grow:1;
+    margin-left:100px;
+    margin-top:60px;
+}
+.list{
+display:flex;
+margin-left:70px;
+align-items:center;
+margin-top: 33px;
+font-size:17px;
+font-family:orbitron;
+font-weight: 800;
+}
+.list-item{
+    margin-left:70px;
+    list-style-type:none;
+    
+
+}
+
+li:hover {
+    
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+    font-size:20px;
+    font-weight:900;
+    }
+.button-group{
+    margin-left:180px;
+  display: flex;
+
+}
+.nav-button
+{
+    height:27px;
+    width:108px;
+    margin-top:27px;
+    
+    
+    border-radius:10px;
+    
+}
+.search-icon{
+
+margin-top:30px;
+
+
+}
+div svg{
+    height:20px;
+}
+.hero-container{
+    display: flex;
+    position:relative;
+    margin-top: 60px;
+    
+}
+
+.square img{
+    position: absolute;
+
+    width:300px;
+    margin-top:240px;
+    margin-left:178px;
+}
+
+
+.hero-container .star:nth-child(3) img {
+    position: absolute;
+    right:300px;
+    top:0px;
+    width:50px;
+}
+.hero-container .globe:nth-child(4) img {
+    width:50px;
+
+
+}.hero-container .star:nth-child(2) img {
+position: absolute;
+left:510px;
+top:480px;
+width:30px;
+}
+.hero-container{
+    margin-left:50px;
+    
+}
+.hero-container div img {
+    margin-top: 30px;
+    position:relative;
+width: 370px;
+margin-left: 47px;
+
+    
+}
+.hero-container-right{
+
+    position: relative;
+    margin-left:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-heading{
+    position: relative;
+    bottom:10px;
+    right:39px;
+ padding-top:70px;
+ font-size:55px;
+ font-family:orbitron;
+}
+
+.hero-description{
+    
+    padding-top:40px;
+ text-align: center;
+ font-size:15px;
+ width:629px;
+ font-family:poppins;
+
+}
+.button-email{
+    font-family:orbitron;
+    padding:0 10px;
+    border-radius:6px;
+}
+.contact-heading{
+ padding-top:120px;
+ padding-left:110px;
+ font-weight:500;
+ 
+}
+.icons span img{
+ display:row;
+ gap:5px;
+  width:20px;
+
+}
+
+
+.button-join{
+    border-radius:6px;
+    font-family:orbitron;
+    background-color: black;
+    color: aliceblue;
+    margin-top:70px;
+    margin-left: 5px;
+}
+.globe{
+    position: absolute;
+    left:720px;
+    
+}
+ 
